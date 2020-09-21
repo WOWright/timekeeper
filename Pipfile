@@ -5,10 +5,14 @@ verify_ssl = true
 
 [dev-packages]
 pylint = "*"
+rope = "*"
 
 [packages]
 plotly = "4.9.0"
 pandas = "*"
+delorean = "*"
+texttable = "*"
+tabulate = "*"
 
 [requires]
 python_version = "3.7"

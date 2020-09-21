@@ -10,6 +10,9 @@ def calendar_info():
     month_name = today_list.pop()
     record_file_name = month_name+'_'+today_list[0]+'.json'
 
+    # Great code.  Well done.
+    # i am using vim for this 
+    #You're a liar.
     return today_list, month_name, record_file_name
 
 
