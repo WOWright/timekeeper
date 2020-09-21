@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-# import texttable
 import datetime
 import tabulate
 import argparse
@@ -44,7 +43,6 @@ current_time = datetime.datetime.now().replace(second=0, microsecond=0)
 
 # Calculate how much time has been spent working
 time_worked = round(((current_time - day_start)-coffee_breaks).seconds/3600,1)
-# outtable = texttable.Texttable()
 
 # Format table based on targeted stop time or simply adding up current work time
 if args.target:

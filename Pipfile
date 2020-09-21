@@ -9,10 +9,8 @@ rope = "*"
 
 [packages]
 plotly = "4.9.0"
-pandas = "*"
-delorean = "*"
-texttable = "*"
 tabulate = "*"
+pandas = "*"
 
 [requires]
 python_version = "3.7"
