@@ -33,10 +33,10 @@ else:
 
 # Determine when the user wants to quit for the day, if specified
 if args.target:
-    target = int(args.target)
+    target = float(args.target)
     if target > 24:
         raise ValueError("You cannot work more than 24 hours in a day")
-    day_end = day_start+datetime.timedelta(hours=int(args.target))+coffee_breaks
+    day_end = day_start+datetime.timedelta(hours=target)+coffee_breaks
 
 # Get the current time
 current_time = datetime.datetime.now().replace(second=0, microsecond=0)
